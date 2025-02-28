@@ -11,7 +11,7 @@ Before you begin, you'll need to install:
 1. **Deno**
    - macOS (using Homebrew):
      ```bash
-     brew install deno
+     curl -fsSL https://deno.land/install.sh | sh
      ```
    - Windows (using PowerShell):
      ```powershell
