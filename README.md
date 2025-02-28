@@ -83,7 +83,7 @@ The tool uses several components to process your invoices:
 Run the script with a PDF invoice file:
 
 ```bash
-deno task dev /path/to/your/invoice.pdf
+deno run main.ts /path/to/your/invoice.pdf
 ```
 
 The script will:
