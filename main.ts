@@ -67,7 +67,7 @@ try {
     "nombre": string,            // Extract from 'Apellido y Nombre / Razón Social' or similar field
     "fecha": string,             // Extract from 'Fecha de Emisión' - Format YYYY-MM-DD
     "fechaVto": string,          // Extract from 'Fecha de Vto. para el pago' - Format YYYY-MM-DD
-    "numeroDocumento": string,    // Extract CUIT/DNI number (NOT 33712201229)
+    "numeroDocumento": string,    // Extract CUIT/DNI number
     "condicionDePago": number,   // 1 for 'Cuenta Corriente', 0 for 'Contado'
     "fechaComprobante": string,  // Same as 'fechaVto' - Format YYYY-MM-DD
     "productos": [
